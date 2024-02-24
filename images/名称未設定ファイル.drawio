@@ -1,9 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2024-02-24T08:10:50.844Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" version="23.1.6" etag="EWEWg1Ycfgj4lgUt8azc" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-24T08:25:54.171Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" etag="44Tn2NaXj1P6d_SuJKf5" version="23.1.6" type="github">
   <diagram name="ページ1" id="OEwkLrXwcLxc9KMcJWuE">
-    <mxGraphModel>
+    <mxGraphModel dx="562" dy="311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dvPCMycT_k5hkmr5Kadz-14" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;fillColor=strokeColor;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.electrical.miscellaneous.monocell_battery;" vertex="1" parent="1">
+          <mxGeometry x="313" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dvPCMycT_k5hkmr5Kadz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="dvPCMycT_k5hkmr5Kadz-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvPCMycT_k5hkmr5Kadz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dvPCMycT_k5hkmr5Kadz-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvPCMycT_k5hkmr5Kadz-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dvPCMycT_k5hkmr5Kadz-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvPCMycT_k5hkmr5Kadz-17" value="マイコン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dvPCMycT_k5hkmr5Kadz-19" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dvPCMycT_k5hkmr5Kadz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="dvPCMycT_k5hkmr5Kadz-14" target="dvPCMycT_k5hkmr5Kadz-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dvPCMycT_k5hkmr5Kadz-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="dvPCMycT_k5hkmr5Kadz-19" target="dvPCMycT_k5hkmr5Kadz-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="190" />
+              <mxPoint x="530" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvPCMycT_k5hkmr5Kadz-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="dvPCMycT_k5hkmr5Kadz-17" target="dvPCMycT_k5hkmr5Kadz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
